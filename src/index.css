@@ -5,9 +5,32 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.filterContainer{
+  width: 50%;
+  margin-top: 10px;
+  display: flex;
+
+  column-gap: 5%;
+}
+.movieListContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+row-gap: 10px;
+column-gap: 5%;
+ 
+}
+.RateContainer button{
+background-color: transparent;
+border: none;
+}
+.fa-star{
+  color: gold;
 }
